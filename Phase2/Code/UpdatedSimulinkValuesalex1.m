@@ -127,9 +127,9 @@ sim('PI.slx',[0 40])
         
 end
 
-Effect_of_Varying_Kp = struct2table(stepinfoKP);
-Effect_of_Varying_Kd = struct2table(stepinfoKD);
-Effect_of_Varying_Ki = struct2table(stepinfoKI);
+Effect_of_Varying_Kp = struct2table(stepinfoKP)
+Effect_of_Varying_Kd = struct2table(stepinfoKD)
+Effect_of_Varying_Ki = struct2table(stepinfoKI)
 
 for i=61:63
     figure(i)
